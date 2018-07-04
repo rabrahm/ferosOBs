@@ -1,0 +1,70 @@
+IMPEX.VERSION "2.0"
+type                    "O"
+calibrationReq          ""
+STTimeIntervals         ""
+userComments            ""
+userPriority            "1"
+InstrumentComments      ""
+LineNumber              "0"
+name                    "refname"
+absolute_times_list "{1970-01-01T00:00:00 2038-01-19T03:14:07 5} "
+finding_chart_list "../FCs/HATS535-001.jpg "
+
+
+ra                      "refra"
+dec                     "refdec"
+epoch                   "2000.0"
+equinox                 "2000"
+propDec                 "0.000000"
+propRA                  "0.000000"
+diffRA                  "0.000000"
+diffDec                 "0.000000"
+comments                ""
+objectClass             " Unknown            "
+LineNumber              "0"
+TARGET.NAME             "refname"
+
+
+air_mass                      "2.5"
+fractional_lunar_illumination "1.0"
+sky_transparency              "Clear"
+moon_angular_distance         "25"
+seeing                        "2.0"
+CONSTRAINT.SET.NAME           "P1 refmagmag"
+
+
+instrument                   "FEROS"
+longDescription              ""
+IPVersion                    "89.01"
+LineNumber                   "0"
+OBSERVATION.DESCRIPTION.NAME "2120-1840"
+
+
+ACQUISITION.TEMPLATE.NAME "FEROS_ech_acq"
+TEL.TARG.OFFSETALPHA "0"
+TEL.TARG.OFFSETDELTA "0"
+TEL.ROT.OFFANGLE     "0"
+TEL.TARG.ADDVELALPHA "0"
+TEL.TARG.ADDVELDELTA "0"
+TEL.AG.FIBSELEC      "OBJFIB"
+TEL.AG.START         "T"
+TEL.PRESET.NEW       "T"
+
+
+
+
+TEMPLATE.NAME "FEROS_ech_obs_objcal"
+DET1.READ.SPEED      "225kHz,1,low"
+DET1.WIN1.UIT1       "reftexp"
+DET1.WIN1.BIN        "1"
+SEQ.CALTIME          "25"
+SEQ.DFL              "0"
+SEQ.DFLTESTDIT       "0"
+SEQ.DFLUSEDB         "F"
+SEQ.LAMPWAIT         "0"
+SEQ.LEAVELAMPON      "T"
+SEQ.NEXPO            "1"
+SEQ.TYPE             "SCIENCE"
+INS.OCLAMP           "ThAr+Ne"
+
+
